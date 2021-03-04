@@ -11,7 +11,7 @@ module.exports = {
     siteHeadline: `Trading on mobile`,
     siteDescription: `Trading on mobile phone.`,
     siteLanguage: `en`,
-    siteUrl: "http://localhost:8000",
+    siteUrl: "https://myforexphone.com",
     siteImage: `/banner.jpg`,
     author: `Ulugbek Mamatkulov`,
   },
