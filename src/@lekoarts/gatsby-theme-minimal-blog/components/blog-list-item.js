@@ -7,7 +7,11 @@ import ItemTags from "./item-tags";
 
 const BlogListItem = ({ post, showTags = true }) => (
   <Box mb={4}>
-    <TLink as={Link} to={post.slug} sx={{ fontSize: [2, 3, 4], color: `text` }}>
+    <TLink
+      as={Link}
+      to={post.slug}
+      sx={{ fontSize: [2, 3, 4], color: `text`, fontWeight: 900 }}
+    >
       {post.title}
     </TLink>
     {post.description && <p sx={{ fontSize: [1, 1, 2] }}>{post.description}</p>}
