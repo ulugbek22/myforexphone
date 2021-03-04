@@ -38,6 +38,7 @@ const Header = () => {
         <Navigation nav={nav} />
         <HeaderExternalLinks />
       </div>
+      <meta name="p:domain_verify" content="7f6f3d9f0b251d4c5ae2ec1149b42b3a" />
     </header>
   );
 };
